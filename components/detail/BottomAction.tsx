@@ -24,14 +24,20 @@ export default function BottomAction({
       style={{ ...styles.container, borderTopColor: color }}
     >
       <Link push href={`edit/${contactId}`} asChild>
-        <BottomActionButton iconName="pencil-outline" title="Edit" />
+        <BottomActionButton
+          testID="edit-button"
+          iconName="pencil-outline"
+          title="Edit"
+        />
       </Link>
       <BottomActionButton
+        testID="delete-button"
         onPress={onDelete}
         iconName="trash-bin-outline"
         title="Delete"
       />
       <BottomActionButton
+        testID="share-button"
         onPress={onShare}
         iconName="share-outline"
         title="Share"

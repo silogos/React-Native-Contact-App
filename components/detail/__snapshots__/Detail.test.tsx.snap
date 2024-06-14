@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "borderBlockColor": "#e4e4e7",
+        "borderBottomWidth": 1,
+        "borderTopWidth": 1,
+        "flexDirection": "column",
+        "paddingHorizontal": 18,
+        "paddingVertical": 5,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#09090b",
+        },
+        undefined,
+        undefined,
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    title
+    :
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "color": "#20A4DC",
+        },
+        undefined,
+        undefined,
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        },
+        undefined,
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    value
+  </Text>
+</View>
+`;

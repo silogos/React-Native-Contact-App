@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  href="/detail/"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  role="link"
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "gap": 5,
+      "paddingHorizontal": 18,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#9CA0AE",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "overflow": "hidden",
+        "width": 50,
+      }
+    }
+  >
+    <ViewManagerAdapter_ExpoImage
+      contentFit="cover"
+      contentPosition={
+        {
+          "left": "50%",
+          "top": "50%",
+        }
+      }
+      flex={1}
+      nativeViewRef={"[React.ref]"}
+      onError={[Function]}
+      onLoad={[Function]}
+      onLoadStart={[Function]}
+      onProgress={[Function]}
+      placeholder={[]}
+      source={
+        [
+          {
+            "uri": "asdasdas",
+          },
+        ]
+      }
+      style={
+        {
+          "flex": 1,
+          "width": "100%",
+        }
+      }
+      testID="contact-photo"
+      transition={
+        {
+          "duration": 1000,
+        }
+      }
+      width="100%"
+    />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "color": "#09090b",
+        },
+        undefined,
+        undefined,
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        },
+        undefined,
+        undefined,
+        {
+          "flex": 1,
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    D D
+  </Text>
+</View>
+`;

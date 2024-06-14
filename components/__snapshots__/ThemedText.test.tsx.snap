@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`ThemedText renders correctly 1`] = `
 <Text
   style={
     [
@@ -9,7 +9,6 @@ exports[`renders correctly 1`] = `
       },
       {
         "fontSize": 16,
-        "lineHeight": 24,
       },
       undefined,
       undefined,
@@ -19,6 +18,6 @@ exports[`renders correctly 1`] = `
     ]
   }
 >
-  Snapshot test!
+  Test
 </Text>
 `;

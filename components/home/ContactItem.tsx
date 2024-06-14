@@ -25,6 +25,7 @@ export function ContactItem({
         <View style={styles.image}>
           {photoUrl ? (
             <Image
+              testID="contact-photo"
               style={{ flex: 1, width: "100%" }}
               source={photoUrl}
               contentFit="cover"
@@ -32,7 +33,11 @@ export function ContactItem({
               onError={() => setPhotoUrl(undefined)}
             />
           ) : (
-            <ThemedText type="defaultSemiBold" style={{ color: "#FFF" }}>
+            <ThemedText
+              testID="contact-fallback"
+              type="defaultSemiBold"
+              style={{ color: "#FFF" }}
+            >
               {firstName[0].toUpperCase() + lastName[0].toUpperCase()}
             </ThemedText>
           )}

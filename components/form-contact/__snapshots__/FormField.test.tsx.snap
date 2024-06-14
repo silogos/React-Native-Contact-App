@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "alignItems": "center",
+        "borderBottomWidth": 1,
+        "borderColor": "#e4e4e7",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "gap": 12,
+        "height": 58,
+        "paddingHorizontal": 12,
+      },
+    ]
+  }
+>
+  <Text />
+  <View
+    style={
+      {
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TextInput
+      placeholderTextColor="#343e4e"
+      style={
+        {
+          "color": "#1e293b",
+          "fontSize": 18,
+        }
+      }
+    />
+  </View>
+</View>
+`;
