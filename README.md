@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# React Native Contact App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## What we use: 
 
-## Get started
+1. Expo
 
-1. Install dependencies
+2. Expo Router
 
-   ```bash
-   npm install
-   ```
+3. RTK Query (Redux Toolkit)
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
+## Screenshots
+| Light   |      Dark |
+|----------|:-------------:|
+![list](./screenshots/light-list.png "list") | ![list](./screenshots/dark-list.png "list") |
+![detail](./screenshots/light-detail.png "detail") | ![detail](./screenshots/dark-detail.png "detail") |
+![add](./screenshots/light-add.png "add") | ![add](./screenshots/dark-add.png "add") |
+![delete](./screenshots/light-delete.png "delete") | ![delete](./screenshots/dark-delete.png "delete") |
+![edit](./screenshots/light-edit.png "edit") | ![edit](./screenshots/dark-edit.png "edit") |
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Repo React: 
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+[https://github.com/silogos/ReactNative-HackerNewsAPI](https://github.com/silogos/React-Native-Contact-App)
 
-## Get a fresh project
 
-When you're ready, run:
+## Contact API:
 
-```bash
-npm run reset-project
-```
+[https://contact.herokuapp.com/documentation#/](https://contact.herokuapp.com/documentation#/)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## Running the project
 
-To learn more about developing your project with Expo, look at the following resources:
+Assuming you have all the requirements installed, you can setup and run the project by running:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- clone this repository
+- `yarn install` to install the dependencies
+- run the following steps for your platform
+- `yarn {start/android/ios/web}`
